@@ -37,17 +37,25 @@
             slides[slideIndex - 1].style.display = "block";
             setTimeout(showSlides, 2000); // Change image every 2 seconds
         }
+
+    </script>
+
+    <script type="text/javascript">
+        window.addEventListener("scroll", function () {
+            var header = document.querySelector("header");
+            header.classlist.toggle("sticky", window.scrollY > 0);
+        })
     </script>
 </head>
 
-<body class="navbar-second">
+<body>
     <!-- Section one -->
 
     <section class=" sectionone">
 
 
         <!-- First navbar -->
-        <nav class="navbar-one flex">
+        <nav class="navbar-one flex ">
             <div class="left flex">
                 <div class="call">
                     <i class="fa fa-phone-alt"></i>
@@ -83,7 +91,7 @@
         </nav>
 
         <!-- Second navbar -->
-        <nav class="navbar-second flex">
+        <nav class="navbar-second flex animated sticky-top">
             <div class="logo">
                 <img src="../images/logo.png" alt="school logo" width="90" height="80">
 
@@ -99,20 +107,18 @@
             </ul>
         </nav>
         <div id="carouselExampleControls" class="carousel slide mySlides " data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block w-100" src="../images/Athletic.JPG" alt="First slide" width="1290" height="800">
+            <div class="carousel-inner ">
+                <div class="carousel-item active d-flex justify-content-center">
+                    <img src="../images/Athletic.JPG" alt="First slide" width ="1250"height="900">
                 </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="../images/agm.JPG" alt="Second slide" width="1290" height="800">
+                <div class="carousel-item active d-flex justify-content-center">
+                    <img  src="../images/agm.JPG" alt="Second slide" width="1250" height="900">
                 </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="../images/woodlands.jpeg" alt="Second slide" width="1290"
-                        height="800">
+                <div class="carousel-item active d-flex justify-content-center">
+                    <img src="../images/woodlands.jpeg" alt="Second slide"width="1250" height="900" >
                 </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="../images/sunsethill.JPG" alt="Third slide" width="1290"
-                        height="800">
+                <div class="carousel-item active d-flex justify-content-center">
+                    <img  src="../images/sunsethill.JPG" alt="Third slide"width="1250" height="900">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -191,63 +197,81 @@
                     <div class="service-item purple">
                         <i class="flaticon-036-parking"></i>
                         <h4>Co-operative Ed</h4>
-                        <p>Earn credits by integrating course curriculum with learning at a work placement. Students in all pathways--apprenticeship, college, community living, university, or the workplace--can participate. </p>
+                        <p>Earn credits by integrating course curriculum with learning at a work placement. Students in
+                            all pathways--apprenticeship, college, community living, university, or the workplace--can
+                            participate. </p>
                     </div>
                 </div>
                 <!-- Card two -->
                 <div class="col-lg-4 col-sm-6">
                     <div class="service-item grey">
                         <h4>Dual-credit</h4>
-                        <p>provide grade 11 and 12 students with an opportunity to earn both college and non-compulsory secondary credits. College credits earned may be applied to a college program after high school. </p>
+                        <p>provide grade 11 and 12 students with an opportunity to earn both college and non-compulsory
+                            secondary credits. College credits earned may be applied to a college program after high
+                            school. </p>
                     </div>
                 </div>
                 <!-- Card three -->
                 <div class="col-lg-4 col-sm-6">
                     <div class="service-item purple">
                         <h4>Summer school</h4>
-                        <p>Second chance to complete an additional credit, upgrade a mark, or take part in Summer School Co-op for experiential learning.  Courses are offered for students currently in grades 9 to 12.</p>
+                        <p>Second chance to complete an additional credit, upgrade a mark, or take part in Summer School
+                            Co-op for experiential learning. Courses are offered for students currently in grades 9 to
+                            12.</p>
                     </div>
                 </div>
                 <!-- Card four -->
                 <div class="col-lg-4 col-sm-6">
                     <div class="service-item grey">
                         <h4>Enhanced program</h4>
-                        <p>open to all students in peel who have been recognized as being gifted. This designation is granted through either the In-school Placement and Review Committee in Elementary or Middle School or psycho-educational testing.</p>
+                        <p>open to all students in peel who have been recognized as being gifted. This designation is
+                            granted through either the In-school Placement and Review Committee in Elementary or Middle
+                            School or psycho-educational testing.</p>
                     </div>
                 </div>
                 <!-- Card five -->
                 <div class="col-lg-4 col-sm-6">
                     <div class="service-item purple">
                         <h4>OYAP</h4>
-                        <p>The Ontario Youth Apprenticeship Program (OYAP) is a school to work program that opens the door for students to explore and work in apprenticeship occupations starting in grades 11 or 12 through the Cooperative Education program. </p>
+                        <p>The Ontario Youth Apprenticeship Program (OYAP) is a school to work program that opens the
+                            door for students to explore and work in apprenticeship occupations starting in grades 11 or
+                            12 through the Cooperative Education program. </p>
                     </div>
                 </div>
                 <!-- Card six -->
                 <div class="col-lg-4 col-sm-6">
                     <div class="service-item grey">
                         <h4>Night school</h4>
-                        <p>Night School is a great option for students who need to upgrade courses or who would like to take courses that are not available in their home school. Credit courses are offered for students in grades 11 or 12.</p>
+                        <p>Night School is a great option for students who need to upgrade courses or who would like to
+                            take courses that are not available in their home school. Credit courses are offered for
+                            students in grades 11 or 12.</p>
                     </div>
                 </div>
                 <!-- Card seven -->
                 <div class="col-lg-4 col-sm-6">
                     <div class="service-item purple">
                         <h4>Special education</h4>
-                        <p>Others learn more easily and require program extensions or more challenging curriculum. The Peel District School Board offers a range of special education programs and services designed to meet a wide range of needs. ​</p>
+                        <p>Others learn more easily and require program extensions or more challenging curriculum. The
+                            Peel District School Board offers a range of special education programs and services
+                            designed to meet a wide range of needs. ​</p>
                     </div>
                 </div>
                 <!-- Card eight -->
                 <div class="col-lg-4 col-sm-6">
                     <div class="service-item grey">
                         <h4>SHSM</h4>
-                        <p>A Specialist High Skills Major allowing you to focus on a career area that interests you while you earn your high school diploma. No matter what education plan after high school. Training youy health helping focus on a future career.</p>
+                        <p>A Specialist High Skills Major allowing you to focus on a career area that interests you
+                            while you earn your high school diploma. No matter what education plan after high school.
+                            Training youy health helping focus on a future career.</p>
                     </div>
                 </div>
                 <!-- Card nine -->
                 <div class="col-lg-4 col-sm-6">
                     <div class="service-item purple">
                         <h4>Pathway Programs</h4>
-                        <p>Peel boards pathway programs provide a range of diverse learning opportunities, courses and programs. The pathways brochure will help you discover some of the dynamic and innovative pathway programs in Peel schools.</p>
+                        <p>Peel boards pathway programs provide a range of diverse learning opportunities, courses and
+                            programs. The pathways brochure will help you discover some of the dynamic and innovative
+                            pathway programs in Peel schools.</p>
                     </div>
                 </div>
             </div>
@@ -255,8 +279,8 @@
     </section>
 
     <!-- Section four -->
-    <section class="sectionfour">
-        <div class="recepie_area">
+    <section class="sectionfour ">
+        <div class="recepie_area ">
             <div class="containerfour">
                 <div class="rowfour">
                     <div class="cool-xl-4 cool-lg-4 col-md-6">
@@ -331,8 +355,10 @@
                 <div class="col-lg-6 video-left">
                     <h6>Who to contact.</h6>
                     <h1>Contact us</h1>
-                    <p><span>The Peel District School Board is committed to developing strong relationships with parents, students and the community. If you have any questions or concerns about your child’s education, we want to make sure they are addressed as quickly as possible. 
-                    </span></p>
+                    <p><span>The Peel District School Board is committed to developing strong relationships with
+                            parents, students and the community. If you have any questions or concerns about your
+                            child’s education, we want to make sure they are addressed as quickly as possible.
+                        </span></p>
                     <div class="left flex">
                         <div class="call">
                             <i class="fa fa-phone-alt"></i>
@@ -341,29 +367,29 @@
                             <span> woodlands.ss@peelsb.com</span>
                         </div>
                     </div>
-            
+
                 </div>
             </div>
         </div>
     </section>
-    
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-content">
-        <div class="footer-links">
-          <a href="#">Home</a>
-          <a href="#">About Us</a>
-          <a href="#">Courses</a>
-          <a href="#">Contact</a>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-links">
+                    <a href="#">Home</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Courses</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+            <div class="footer-social">
+                <a href="#facebook" class="social-icon facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon insta"><i class="fab fa-instagram"></i></a>
+            </div>
         </div>
-      </div>
-      <div class="footer-social">
-        <a href="#facebook" class="social-icon facebook"><i class="fab fa-facebook-f"></i></a>
-        <a href="#" class="social-icon twitter"><i class="fab fa-twitter"></i></a>
-        <a href="#" class="social-icon insta"><i class="fab fa-instagram"></i></a>
-      </div>
-    </div>
-  </footer>
+    </footer>
 
 
 
