@@ -35,7 +35,7 @@
             slideIndex++;
             if (slideIndex > slides.length) { slideIndex = 1 }
             slides[slideIndex - 1].style.display = "block";
-            setTimeout(showSlides, 2000); // Change image every 2 seconds
+            setTimeout(showSlides, 20000); // Change image every 2 seconds
         }
 
     </script>
@@ -106,20 +106,18 @@
             </ul>
         </nav>
     </nav>
-        <div id="carouselExampleControls" class="carousel slide mySlides " data-ride="carousel">
+        <div id="carouselExampleControls" class="carousel slide  " data-ride="carousel">
             <div class="carousel-inner ">
-                <div class="carousel-item active d-flex justify-content-center">
-                    <img src="../images/Athletic.JPG" alt="First slide" width ="1250"height="900">
-                </div>
-                <div class="carousel-item active d-flex justify-content-center">
-                    <img  src="../images/agm.JPG" alt="Second slide" width="1250" height="900">
-                </div>
-                <div class="carousel-item active d-flex justify-content-center">
-                    <img src="../images/woodlands.jpeg" alt="Second slide"width="1250" height="900" >
-                </div>
-                <div class="carousel-item active d-flex justify-content-center">
-                    <img  src="../images/sunsethill.JPG" alt="Third slide"width="1250" height="900">
-                </div>
+                <div class="carousel-item active">
+                    <img class="d-block" src="../images/Athletic.JPG" alt="First slide" width ="1300" height="900">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block" src="../images/agm.JPG" alt="Second slide" width ="1300" height="900">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block " src="../images/woodlands.jpeg" alt="Third slide" width ="1300" height="900">
+                  </div>
+
             </div>
             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
