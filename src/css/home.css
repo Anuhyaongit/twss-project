@@ -11,7 +11,7 @@ body{
 }
 
 nav{
-    padding: 0 50px;
+    padding: 0 15px;
     width: 100%;
 }
 
@@ -51,6 +51,7 @@ span{
 .navbar-second{
     background-color: white;
     height: 100px;
+    width: 100%;
     top: 0;
 }
 
@@ -75,6 +76,14 @@ a{
     font-weight: 400 ;
 }
 
+.stickynav{
+    position: fixed;
+}
+
+.slide{
+    position: absolute;
+}
+
 .sectionone{ 
     width: 100%;
     height: 120vh;
@@ -86,9 +95,10 @@ a{
     background-color: #DFA974;
     color: white;
     border-radius: 0;
-    padding: 17%;
+    padding: 28%;
     padding-left: 27%;
     padding-right: 27%;
+    margin-right: 20%;
 }
 
 .float{
