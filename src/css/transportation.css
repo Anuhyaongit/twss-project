@@ -63,9 +63,16 @@ a{
 }
 
 
+h1{
+    margin-top: 5%;
+    margin-bottom: 4%;
+}
+
 .spaceright{
     margin-right: 20px;
 }
+
+
 
 .logo{
     text-transform: uppercase;
@@ -271,6 +278,21 @@ padding-left: 10px;
         margin-bottom: 20px;
         position: relative;
         }
+
+        .long{
+            width: 300px;
+            margin-top: 1%;
+
+
+        }
+        .long2{
+            float: right;
+
+            width: 300px;
+            margin-top: -6%;
+        }
+
+
         footer h6:after {
         position: absolute;
         content: "";
@@ -303,3 +325,41 @@ padding-left: 10px;
         padding-left: 10px;
         
         }
+
+        .about_part {
+            margin-top: 120px;
+            z-index: 1;
+            background-color: #a6c8e3;
+            font-size: 18px;
+            text-transform: capitalize;
+            font-weight: 400;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .about_part .about_part_iner {
+            padding: 35px;
+            height: 70vh;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            margin-right: -15px;
+            margin-left: -15px;
+        }
+
+        
+ .about_part .about_text .btn_3 {
+    margin-top: 48px;
+}
+
+.picture{
+    margin-left: 5%;
+    margin-top: 5%;
+
+}
+.down{
+    margin-bottom: 4%;
+}
+.colors{
+    background-color:  #a6c8e3;
+}
