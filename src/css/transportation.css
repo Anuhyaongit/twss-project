@@ -96,9 +96,6 @@ h1{
 
 
 
-.logo-footer {
-    margin-bottom: 40px;
- }
  footer {
         color: rgb(236, 236, 236);
  }
@@ -106,16 +103,16 @@ h1{
 font-size: 12px;
 font-family: 'Roboto', sans-serif;
 }
-footer h6 {
+footer h3 {
 font-family: 'Playfair Display', serif;
 margin-bottom: 20px;
 position: relative;
 }
-footer h6:after {
+footer h3:after {
 position: absolute;
 content: "";
 background: rgb(254, 254, 254);
-width: 12%;
+width: 90%;
 height: 1px;
 left: 0;
 bottom: -10px;
@@ -136,39 +133,30 @@ bottom: -10px;
             text-decoration: none;
            
  }
-.form-footer input[type="text"] {
-    border: none;
-border-radius: 16px 0 0 16px;
-outline: none;
-padding-left: 10px;
 
-}
-
-
-.footer-content {
+.content {
     display: flex;
     align-items: center;
   }
   
-  .footer-logo img {
-    width: 90px;
-    height: 70px;
-    padding-right: 15%;
-  }
+.footer-heading{
+    width: 40%;
+    margin-left: -2%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
   
   .footer-links a {
     color: white;
     text-decoration: none;
-    margin: 0 10px;
   }
   
   .footer-social {
     display: flex;
+    
   }
 
   .footer {
     background-color: #0c2641;
-    padding: 50px 0;
   }
   
   footer ul li {
@@ -192,6 +180,7 @@ padding-left: 10px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    
 }
 
 .facebook{
@@ -238,7 +227,7 @@ padding-left: 10px;
 
   .footer {
     background-color: #0c2641;
-    padding: 50px 0;
+    padding: 20px 0;
   }
   footer ul li {
     list-style: none;
@@ -289,7 +278,7 @@ padding-left: 10px;
             float: right;
 
             width: 300px;
-            margin-top: -6%;
+            margin-top: -9%;
         }
 
 
@@ -362,4 +351,39 @@ padding-left: 10px;
 }
 .colors{
     background-color:  #a6c8e3;
+}
+
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.styles{    
+    margin-left: 3%;
+}
+
+h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+h6{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.size{
+    margin-left: 1%;
+    width: 57%;
+    height: 20%;
+    margin-bottom: 1%;
+    border-radius: 20px;
+}
+
+.warn{
+    background-color: rgba(218, 40, 40, 0.5);
+    
+}
+
+button{
+    margin-bottom: 3%;
 }
