@@ -16,7 +16,7 @@
 body{
     width:100%;
     height: 100%;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "CircularStd", sans-serif;
 }
 
 nav{
@@ -92,12 +92,11 @@ a{
 }
 
 .slide{
-    position: absolute;
+    position:relative;
 }
 
 .sectionone{ 
     width: 100%;
-    height: 120vh;
     background: no-repeat center center / cover ;
     background-size: cover;
 }
@@ -126,17 +125,17 @@ a{
     font-size: 18px;
     text-transform: capitalize;
     font-weight: 400;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "CircularStd", sans-serif;
 }
 .about_part .about_part_iner {
     padding: 35px;
-    height: 70vh;
+    height: 70%;
 }
 
 .footer-heading{
     width: 40%;
     margin-left: -2%;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:  "CircularStd", sans-serif;
 }
 h1{
     font-size: 35px;
@@ -187,7 +186,7 @@ h1{
 .col-lg-7 {
     -ms-flex: 0 0 58.333333%;
     flex: 0 0 58.333333%;
-    max-width: 60%;
+    max-width: 100%;
 }
 
 .align-items-center {
@@ -204,7 +203,7 @@ h1{
 }
 
 .container {
-    max-width: 150vh;
+    max-width: 100%;
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
@@ -353,7 +352,7 @@ footer h3:after {
 }
 
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
-    font-family: Flaticon;
+    font-family:  "CircularStd", sans-serif;
     font-size: 50px;
     font-style: normal;
     margin-left: 0;
@@ -361,7 +360,7 @@ footer h3:after {
 
 p {
     font-size: 16px;
-    font-family: "Cabin", sans-serif;
+    font-family:  "CircularStd", sans-serif;
     font-weight: 400;
     line-height: 26px;
     margin: 0 0 15px 0;
@@ -440,7 +439,7 @@ p {
 
     line-height: 28px;
 
-    font-family: "Roboto", sans-serif;
+    font-family:  "CircularStd", sans-serif;
 }
 
 p {
@@ -475,7 +474,7 @@ a {
     padding-bottom: 13px;
     padding-left: 34px;
     font-weight: 500;
-    font-family: "Roboto", sans-serif;
+    font-family: "CircularStd", sans-serif;
     border-radius: 30px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
@@ -548,9 +547,7 @@ img {
 
 .sectionfour{
     background-color: #abbfd1;
-    width: 175vh;
-    align-content: center;
-    margin-left: 1%;
+    width: 100%;
 }
 
 
@@ -683,7 +680,7 @@ a, a:focus, a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "CircularStd", sans-serif;
     color: #222222;
     line-height: 1.2em !important;
     margin-bottom: 0;
@@ -694,7 +691,7 @@ h1, h2, h3, h4, h5, h6 {
 .video-left p span {
     color: #000;
     font-weight: 400;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "CircularStd", sans-serif;
 
 }
 
@@ -717,11 +714,11 @@ h1, h2, h3, h4, h5, h6 {
  }
  footer p, a {
 font-size: 12px;
-font-family: 'Roboto', sans-serif;
+font-family:  "CircularStd", sans-serif;
 }
 
 footer h3 {
-font-family: 'Playfair Display', serif;
+font-family: "CircularStd", sans-serif;
 margin-bottom: 20px;
 position: relative;
 }
@@ -807,7 +804,7 @@ margin-left: -25%;
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: "CircularStd", sans-serif;
   }
   
   .footer {
