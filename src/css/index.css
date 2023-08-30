@@ -133,6 +133,11 @@ a{
     height: 70vh;
 }
 
+.footer-heading{
+    width: 40%;
+    margin-left: -2%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 h1{
     font-size: 35px;
 }
@@ -190,6 +195,9 @@ h1{
     align-items: center!important;
 }
 
+ footer {
+        color: rgb(236, 236, 236);
+ }
 .banner_part .banner_text {
     text-align: center;
     padding-top: 0px;
@@ -217,15 +225,18 @@ h1{
     margin-left: 0%;
 }
 
-btn_1:hover, .btn_3:hover {
+.colo{
+    color: #e9e9e9;
 }
-
-a:hover {
-    text-decoration: none;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-}
-
+footer h3:after {
+    position: absolute;
+    content: "";
+    background: rgb(254, 254, 254);
+    width: 90%;
+    height: 1px;
+    left: 0;
+    bottom: -10px;
+    }
 .btn_3 {
     display: inline-block;
     font-size: 15px;
@@ -708,16 +719,19 @@ h1, h2, h3, h4, h5, h6 {
 font-size: 12px;
 font-family: 'Roboto', sans-serif;
 }
-footer h6 {
+
+footer h3 {
 font-family: 'Playfair Display', serif;
 margin-bottom: 20px;
 position: relative;
 }
-footer h6:after {
+
+
+footer h3:after {
 position: absolute;
 content: "";
 background: rgb(254, 254, 254);
-width: 12%;
+width: 90%;
 height: 1px;
 left: 0;
 bottom: -10px;
@@ -798,7 +812,7 @@ body {
   
   .footer {
     background-color: #0c2641;
-    padding: 50px 0;
+    padding: 20px;
   }
   
   .container {
