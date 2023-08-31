@@ -93,7 +93,8 @@ a{
 
 .slide{
     position:relative;
-    padding-left: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 .sectionone{ 
@@ -268,8 +269,6 @@ footer h3:after {
 
 .containerthree {
     width: 100%;
-    max-width: 1300px;
-    padding-right: 10px;
     padding-left: 100px;
     margin-right: auto;
     margin-left: auto;
@@ -410,6 +409,13 @@ p {
     text-align: center!important;
 }
 
+.pad{
+    padding-bottom: 1%;
+}
+
+.spac{
+    padding-bottom: 3%;
+}
 
 .recepie_area .single_recepie .recepie_thumb {
     width: 140px;
